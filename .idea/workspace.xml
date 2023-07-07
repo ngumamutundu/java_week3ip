@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b7e7c0b-4a50-461d-afbd-48da7e751fe7" name="Changes" comment="Added Readme file">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/animalForm.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/animalList.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sightingForm.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sightingList.hbs" afterDir="false" />
+    <list default="true" id="9b7e7c0b-4a50-461d-afbd-48da7e751fe7" name="Changes" comment="added code for all hbs files">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animalForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animalForm.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animalList.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animalList.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightingForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sightingForm.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightingList.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sightingList.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pmutundu\Documents\java_week3ip\src\main\resources\public\images\css" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -123,14 +131,48 @@
       <option name="project" value="LOCAL" />
       <updated>1688759866906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added hbs files under templates">
+      <created>1688762471323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688762471323</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added hbs files under templates">
+      <created>1688762525117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688762525117</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added code for all hbs files">
+      <created>1688763319936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688763319936</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added codes for package dao" />
     <MESSAGE value="amended code for models, db and main" />
     <MESSAGE value="Amended main class." />
     <MESSAGE value="Added Readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Readme file" />
+    <MESSAGE value="Added hbs files under templates" />
+    <MESSAGE value="added code for all hbs files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for all hbs files" />
   </component>
 </project>
