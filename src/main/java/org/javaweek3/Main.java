@@ -1,3 +1,4 @@
+package org.javaweek3;
 
 import org.javaweek3.dao.AnimalDAO;
 import org.javaweek3.dao.SightingDAO;
