@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>WildTracker - Sighting List</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
+<h1>Sighting List</h1>
+{{#if sightings}}
+    <ul>
+        {{#each sightings}}
+            <li>{{this.location}} - {{this.rangerName}}</li>
+        {{/each}}
+    </ul>
+{{else}}
+    <p>No sightings found.</p>
+{{/if}}
+<script src="/js/script.js"></script>
 </body>
 </html>
