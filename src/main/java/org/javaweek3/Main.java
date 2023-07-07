@@ -1,9 +1,10 @@
-package org.javaweek3;
 
 import org.javaweek3.dao.AnimalDAO;
 import org.javaweek3.dao.SightingDAO;
 import org.javaweek3.models.Animal;
 import org.javaweek3.models.Sighting;
+
+import java.sql.SQLException;
 
 import static spark.Spark.*;
 
@@ -12,8 +13,13 @@ public class Main {
         port(4567);
 
         AnimalDAO animalDAO = new AnimalDAO();
-        animalDAO.createAnimal("Douglas Fir");
-        animalDAO.createAnimal("Endangered Species");
+        try {
+            animalDAO.createAnimal("Douglas Fir");
+            animalDAO.createAnimal("Endangered Species");
+        } catch (SQLException e) {
+            // Handle the exception, e.g., log the error or show an error message
+            e.printStackTrace();
+        }
 
         SightingDAO sightingDAO = new SightingDAO();
 
@@ -31,7 +37,12 @@ public class Main {
             }
 
             Sighting sighting = new Sighting(animal, location, rangerName);
-            sightingDAO.createSighting(sighting.getAnimal(), sighting.getLocation(), sighting.getRangerName());
+            try {
+                sightingDAO.createSighting(sighting);
+            } catch (SQLException ex) {
+                // Handle the exception, e.g., log the error or show an error message
+                ex.printStackTrace();
+            }
 
             return sightingDAO.getAllSightings();
         });
