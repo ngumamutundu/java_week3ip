@@ -1,5 +1,5 @@
 package org.javaweek3.dao;
-
+import org.javaweek3.db.DatabaseConnection;
 import org.javaweek3.models.Animal;
 
 import java.sql.PreparedStatement;

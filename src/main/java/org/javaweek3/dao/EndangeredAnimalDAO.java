@@ -1,6 +1,8 @@
 package org.javaweek3.dao;
 
+import org.javaweek3.db.DatabaseConnection;
 import org.javaweek3.models.EndangeredAnimal;
+
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
