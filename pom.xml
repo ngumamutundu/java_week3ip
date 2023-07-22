@@ -1,0 +1,13 @@
+<dependencies>
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>com.github.jknack</groupId>
+        <artifactId>handlebars</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.jknack</groupId>
+        <artifactId>handlebars-guava-cache</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+</dependencies>
